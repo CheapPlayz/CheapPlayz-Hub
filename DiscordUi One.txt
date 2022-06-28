@@ -22,5 +22,14 @@ local serv = win:Server("MM2", "http://www.roblox.com/asset/?id=10041357534")
    DiscordLib:Notification("Notification", "Loaded", "Okay")
 
   end)
-    
+
+else
+
+local serv = win:Server("Not Supported Game", "http://www.roblox.com/asset/?id=10041357534")
+
+ local Label = serv:Channel("Credits")
+ 
+  Label:Label("Credit To CheapPlayz.")
+   Label:Label("Credit To Max9598.")
+
 end
