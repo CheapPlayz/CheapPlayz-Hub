@@ -93,13 +93,4 @@ if game.PlaceId == 2551991523 then
     DiscordLib:Notification("Notification", "Loaded", "Okay")
     
    end)
-
-else
-
-local serv = win:Server("Game Not Supported", "http://www.roblox.com/asset/?id=10041357534")
-local Label = serv:Channel("Credits")
-  
-    Label:Label("Credit To CheapPlayz.")
-    Label:Label("Credit To Max9598.")
-
 end
