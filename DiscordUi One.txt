@@ -99,7 +99,7 @@ if game.PlaceId == 2551991523 then
     
    end)
 
-elseif game.PlaceId == 00000000 then
+elseif game.PlaceId == then
 
 local serv = win:Server("Game Not Supported", "http://www.roblox.com/asset/?id=10041357534")
 
