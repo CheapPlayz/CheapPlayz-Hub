@@ -42,7 +42,7 @@ if game.PlaceId == 606849621 then
   local Label = serv:Channel("Credits")
     
    Label:Label("Credit To CheapPlayz.")
-    Label:Label("Credit To Max9598.")
+   Label:Label("Credit To Max9598.")
 
   local btns = serv:Channel("Scripts")
 
@@ -75,30 +75,7 @@ if game.PlaceId == 606849621 then
     DiscordLib:Notification("Notification", "Loaded", "Okay")
   
    end)
-
-end
-
-if game.PlaceId == 606849621 then
-
- local serv = win:Server("Jailbreak", "http://www.roblox.com/asset/?id=10041357534")
-       
-  local Label = serv:Channel("Credits")
-       
-    Label:Label("Credit To CheapPlayz.")
-    Label:Label("Credit To Max9598.")
    
-  local btns = serv:Channel("Scripts")
-   
-    btns:Button("Vynixius Jailbreak (Click To Execute)", function()
-     
-    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
-     
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
-     
-    DiscordLib:Notification("Notification", "Loaded", "Okay")
-     
-    end)
-
 end
 
 if game.PlaceId == 2551991523 then
@@ -122,4 +99,11 @@ if game.PlaceId == 2551991523 then
     
    end)
 
-end
+elseif game.PlaceId == 00000000 then
+
+local serv = win:Server("Game Not Supported", "http://www.roblox.com/asset/?id=10041357534")
+
+  local Label = serv:Channel("Credits")
+  
+    Label:Label("Credit To CheapPlayz.")
+    Label:Label("Credit To Max9598.")
