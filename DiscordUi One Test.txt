@@ -1,0 +1,109 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("CheapPlayz Script Hub")
+
+if game.PlaceId == 142823291 then
+
+local serv = win:Server("MM2", "http://www.roblox.com/asset/?id=10041357534")
+
+ local Label = serv:Channel("Credits")
+
+  Label:Label("Credit To CheapPlayz.")
+   Label:Label("Credit To Max9598.")
+
+ local btns = serv:Channel("Scripts")
+
+  btns:Button("Eclipse MM2 (Click To Execute)", function()
+
+   DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"))();
+
+   DiscordLib:Notification("Notification", "Loaded", "Okay")
+
+  end)
+
+  btns:Button("Random MM2 (Click To Execute)", function()
+
+    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+ 
+    loadstring(game:HttpGet("https://pastebin.com/raw/fmFNndFF"))();
+ 
+    DiscordLib:Notification("Notification", "Loaded", "Okay")
+ 
+  end)
+
+end
+
+if game.PlaceId == 606849621 then
+
+ local serv = win:Server("Jailbreak", "http://www.roblox.com/asset/?id=10041357534")
+    
+  local Label = serv:Channel("Credits")
+    
+   Label:Label("Credit To CheapPlayz.")
+   Label:Label("Credit To Max9598.")
+
+  local btns = serv:Channel("Scripts")
+
+   btns:Button("Vynixius Jailbreak (Click To Execute)", function()
+  
+    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+  
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+  
+    DiscordLib:Notification("Notification", "Loaded", "Okay")
+  
+   end)
+
+   btns:Button("Jail Monkey Jailbreak (Click To Execute)", function()
+  
+    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+  
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+  
+    DiscordLib:Notification("Notification", "Loaded", "Okay")
+  
+   end)
+
+   btns:Button("Random Idk Jailbreak (Click To Execute)", function()
+  
+    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+  
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+  
+    DiscordLib:Notification("Notification", "Loaded", "Okay")
+  
+   end)
+   
+end
+
+if game.PlaceId == 2551991523 then
+
+  local serv = win:Server("BBIV", "http://www.roblox.com/asset/?id=10041357534")
+    
+  local Label = serv:Channel("Credits")
+    
+    Label:Label("Credit To CheapPlayz.")
+    Label:Label("Credit To Max9598.")
+    
+  local btns = serv:Channel("Scripts")
+    
+    btns:Button("Random BBIV (Click To Execute)", function()
+    
+    DiscordLib:Notification("Notification", "Loading, Takes A While", "Okay")
+    
+    loadstring(game:HttpGet('https://pastebin.com/raw/thCavmzb'))()
+    
+    DiscordLib:Notification("Notification", "Loaded", "Okay")
+    
+   end)
+
+elseif game.PlaceId == then
+
+local serv = win:Server("Game Not Supported", "http://www.roblox.com/asset/?id=10041357534")
+
+  local Label = serv:Channel("Credits")
+  
+    Label:Label("Credit To CheapPlayz.")
+    Label:Label("Credit To Max9598.")
