@@ -33,7 +33,7 @@ local serv = win:Server("MM2", "http://www.roblox.com/asset/?id=10041357534")
  
   end)
 
-elseif game.PlaceId == 606849621 then
+if game.PlaceId == 606849621 then
 
  local serv = win:Server("Jailbreak", "http://www.roblox.com/asset/?id=10041357534")
   local Label = serv:Channel("Credits")
@@ -73,7 +73,7 @@ elseif game.PlaceId == 606849621 then
   
    end)
 
-elseif game.PlaceId == 2551991523 then
+if game.PlaceId == 2551991523 then
 
   local serv = win:Server("BBIV", "http://www.roblox.com/asset/?id=10041357534")
     
