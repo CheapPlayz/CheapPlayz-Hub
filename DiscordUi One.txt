@@ -33,9 +33,12 @@ local serv = win:Server("MM2", "http://www.roblox.com/asset/?id=10041357534")
  
   end)
 
-elseif game.PlaceId == 606849621 then
+end
+
+if game.PlaceId == 606849621 then
 
  local serv = win:Server("Jailbreak", "http://www.roblox.com/asset/?id=10041357534")
+    
   local Label = serv:Channel("Credits")
     
    Label:Label("Credit To CheapPlayz.")
@@ -72,8 +75,10 @@ elseif game.PlaceId == 606849621 then
     DiscordLib:Notification("Notification", "Loaded", "Okay")
   
    end)
+   
+end
 
-elseif game.PlaceId == 2551991523 then
+if game.PlaceId == 2551991523 then
 
   local serv = win:Server("BBIV", "http://www.roblox.com/asset/?id=10041357534")
     
@@ -94,12 +99,11 @@ elseif game.PlaceId == 2551991523 then
     
    end)
 
-else
+elseif game.PlaceId == 00000000 then
 
 local serv = win:Server("Game Not Supported", "http://www.roblox.com/asset/?id=10041357534")
-local Label = serv:Channel("Credits")
+
+  local Label = serv:Channel("Credits")
   
     Label:Label("Credit To CheapPlayz.")
     Label:Label("Credit To Max9598.")
-
-end
